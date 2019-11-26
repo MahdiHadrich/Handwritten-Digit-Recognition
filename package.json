@@ -1,6 +1,7 @@
 {
   "name": "handwritten-digit-recognition",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "Handwritten Digit Recognition application developed by Mahdi Hadrich using Angular and TensorFlow with the help of this article: https://rubikscode.net/2019/09/09/integration-of-tensorflow-model-into-angular-application/ written by Nikola Živković",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
