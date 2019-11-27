@@ -1,27 +1,12 @@
-# HandwrittenDigitRecognition
+# Handwritten Digit Recognition
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
+This project shows a simple integration of a neural network built and trained using TensorFlow and Python in an Angular application.
+This application recognizes numbers written on the webpage canvas using Convolutional Neural Networks and MNIST dataset. So it first imports the MNIST ConvNet trained in Keras, then makes predictions using TensorFlow.js.
 
-## Development server
+To test this application locally:
+`npm install`
+`ng serve`
+`cd python/trained_model`
+`http-server -p 3000 --cors` to load the pretrained Keras model
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+![alt text](/images/ScreenRec.gif "Handwritten Digit Recognition")
